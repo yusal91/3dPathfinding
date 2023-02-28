@@ -140,7 +140,7 @@ public class GridBehiever : MonoBehaviour
                 tempList.Add(gridArray[x - 1, y]);
             }
 
-            GameObject tempobj = FindClosest(gridArray[endX, endY].transform, tempList);
+            GameObject tempobj = FindClosest(gridArray[endX, endY].transform, tempList);           // ahmmm dont know what is wrong here
             path.Add(tempobj);
             x = tempobj.gameObject.GetComponent<GridStats>().x;
             y = tempobj.gameObject.GetComponent<GridStats>().y;

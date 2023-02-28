@@ -335,7 +335,7 @@ MonoBehaviour:
   columns: 10
   scale: 1
   gridprefab: {fileID: 4960891814247915362, guid: bd76f7bfe6d1be7418f66b1b9bbb5416, type: 3}
-  gridLocation: {x: 0, y: 0, z: 0}
+  gridLocation: {x: 1, y: 0, z: 1}
   startX: 0
   startY: 0
   endX: 2
