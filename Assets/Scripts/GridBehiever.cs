@@ -101,7 +101,7 @@ public class GridBehiever : MonoBehaviour
 
     void SetPath()
     {
-        int step;
+        int step;                
         int x = endX;
         int y = endY;
         List<GameObject> tempList = new List<GameObject>();
